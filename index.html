@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/grid.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/respondsive.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="nav-bar">
+            <div class="container">
+                <div class="nav-main">
+                    <a href="#" class="nav-logo">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+
+
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#work" class="nav-link">work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link">blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">contact</a>
+                        </li>
+                    </ul>
+
+
+                    <label for="nav-home" class="nav-btn-mobile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+
+
+                    </label>
+                    <input type="checkbox" hidden id="nav-home">
+                    <!-- <label for="nav-home"></label> -->
+
+                    <label for="nav-home" class="nav-overlay"></label>
+
+
+                    <ul class="nav-list-mobile">
+                        <label for="nav-home" class="nav-close">
+                            <svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path d="M16 19c-.802 0-1.555-.312-2.122-.879l-1.878-1.879-1.879 1.879c-1.133 1.133-3.109 1.133-4.243 0-.566-.566-.878-1.32-.878-2.121s.312-1.555.879-2.122l1.878-1.878-1.878-1.879c-.567-.566-.879-1.32-.879-2.121s.312-1.555.879-2.122c1.133-1.132 3.109-1.133 4.243.001l1.878 1.879 1.879-1.879c1.133-1.133 3.109-1.133 4.243 0 .566.566.878 1.32.878 2.121s-.312 1.555-.879 2.122l-1.878 1.878 1.878 1.879c.567.566.879 1.32.879 2.121s-.312 1.555-.879 2.122c-.566.566-1.319.878-2.121.878zm-4-5.586l3.293 3.293c.378.378 1.037.377 1.414 0 .189-.189.293-.439.293-.707s-.104-.518-.293-.707l-3.292-3.293 3.292-3.293c.189-.189.293-.44.293-.707s-.104-.518-.293-.707c-.378-.379-1.037-.378-1.414-.001l-3.293 3.294-3.293-3.293c-.378-.378-1.037-.377-1.414 0-.189.189-.293.44-.293.707s.104.518.293.707l3.292 3.293-3.292 3.293c-.189.189-.293.439-.293.707s.104.518.293.707c.378.379 1.037.378 1.414.001l3.293-3.294z"/></svg>
+                        </label>
+                        <li class="nav-item-mobile">
+                            <a href="#work" class="nav-link-mobile">work</a>
+                        </li>
+                        <li class="nav-item-mobile">
+                            <a href="#about" class="nav-link-mobile">about</a>
+                        </li>
+                        <li class="nav-item-mobile">
+                            <a href="#blog" class="nav-link-mobile">blog</a>
+                        </li>
+                        <li class="nav-item-mobile">
+                            <a href="#contact" class="nav-link-mobile">contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="header">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6 m-12 c-12 text-center">
+                        <h1 class="header-title">
+                            <p>Hello!!!</p> We are creative
+                            <p>digital agency</p>
+                        </h1>
+                        <p class="header-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo.</p>
+                        <a href="" class="btn header-btn">send message</a>
+                    </div>
+
+                    <div class="col l-6 m-12 c-12">
+                        <img src="https://source.unsplash.com/random/?blog" width="571px" height="541px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="work" class="portfolio">
+            <div class="grid wide">
+                <div class="portfolio-main">
+                    <div class="portfolio-heading text-center">
+                        <h2>work showcase.</h2>
+                    </div>
+
+                    <div class="portfolio-filter">
+
+                        <div class="select-item">
+                            <select>
+                                <!-- <option value="0">Choose select</option> -->
+                                <option value="1">All</option>
+                                <option value="2">Branding</option>
+                                <option value="3">Illustration</option>
+                                <option value="4">Web</option>
+                            </select>
+                        </div>
+
+                        <ul class="portfolio-filter__list">
+                            <li class="portfolio-filter__item">
+                                <a href="#" class="portfolio-filter__link">All</a>
+                            </li>
+                            <li class="portfolio-filter__item">
+                                <a href="#" class="portfolio-filter__link">branding</a>
+                            </li>
+                            <li class="portfolio-filter__item">
+                                <a href="#" class="portfolio-filter__link">illustration</a>
+                            </li>
+                            <li class="portfolio-filter__item">
+                                <a href="#" class="portfolio-filter__link">web</a>
+                            </li>
+                        </ul>
+
+                        <div class="portfolio-filter__bars">
+                            <div class="portfolio-filter__item">
+                                <a href="#" class="portfolio-filter__link">
+                                    newest first                               
+                                    <i class="portfolio-filter__icon fas fa-caret-down"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-filter__images">
+                        <div class="row">
+                            <div class="col l-4 m-12 c-12">
+                                <div class="portfolio-filter__list-img">
+                                    <a href="#" class="portfolio-filter__item-img">
+                                        <img src="https://source.unsplash.com/random/?nature" width="370px" height="301px" alt="">
+                                    </a>
+                                    <a href="#" class="portfolio-filter__item-img">
+                                        <img src="https://source.unsplash.com/random/?water" width="370px" height="501px" alt="">
+                                        <div class="portfolio-filter__hover">
+                                            <p class="hover-title">ART WORK</p>
+                                            <p class="hover-desc">BRANDING</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="portfolio-filter__list-img">
+                                    <a href="#" class="portfolio-filter__item-img">
+                                        <img src="https://source.unsplash.com/random/?pic" width="370px" height="501px" alt="">
+                                    </a>
+                                    <a href="" class="portfolio-filter__item-img">
+                                        <img src="https://source.unsplash.com/random/?life" width="370px" height="301px" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="portfolio-filter__list-img">
+                                    <a href="$" class="portfolio-filter__item-img">
+                                        <img src="https://source.unsplash.com/random/?cool" width="370px" height="301px" alt="">
+                                    </a>
+                                    <a href="#" class="portfolio-filter__item-img">
+                                        <img src="https://source.unsplash.com/random/?person" width=" 370px " height="501px " alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-filter__btn">
+                        <a href="#" class="btn btn-filter">show me more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="partner">
+            <div class="grid wide">
+                <div class="row">
+
+                    <div class="col l-2 m-4 c-6">
+                        <a href="#" class="partner-item">
+                            <img src="./img/partner 1.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col l-2 m-4 c-6">
+                        <a href="#" class="partner-item">
+                            <img src="./img/partner 2.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col l-2 m-4 c-6">
+                        <a href=" " class="partner-item">
+                            <img src="./img/partner 3.png " alt="">
+                        </a>
+                    </div>
+
+                    <div class="col l-2 m-4 c-6">
+                        <a href=" " class="partner-item">
+                            <img src="./img/partner 4.png " alt="">
+                        </a>
+                    </div>
+
+                    <div class="col l-2 m-4 c-6">
+                        <a href=" " class="partner-item">
+                            <img src="./img/partner 5.png " alt="">
+                        </a>
+                    </div>
+
+                    <div class="col l-2 m-4 c-6">
+                        <a href=" " class="partner-item">
+                            <img src="./img/partner 6.png " alt="">
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="about" class="about">
+            <div class="grid wide">
+                <div class="about-main">
+                    <div class="about-header text-center">
+                        <h2 class="about-heading">ABOUT US</h2>
+                        <p class="about-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore dolores sed sequi tempore minus!</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col l-4 m-12">
+                            <div class="about-item">
+                                <a href="" class="about-img">
+                                    <img src="https://source.unsplash.com/random" style="width: 371px; height: 420px; " alt="">
+                                    <div class="about-info">
+                                        <p class="about-name">Luke Skywalker</p>
+                                        <p class="about-job">Designer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12">
+                            <div class="about-item">
+                                <a href="" class="about-img">
+                                    <img src="https://source.unsplash.com/random" style="width: 371px; height: 420px; " alt="">
+                                    <div class="about-info">
+                                        <p class="about-name">Luke Skywalker</p>
+                                        <p class="about-job">Designer</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12">
+                            <div class="about-item item-tab-mob">
+                                <p class="about-title">Little About Us</p>
+                                <p class="about-item--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <p class="about-read">Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="blog" class="blog">
+            <div class="grid wide">
+                <div class="blog-main">
+                    <div class="blog-header text-center">
+                        <h2 class="blog-title">OUR BLOG</h2>
+                        <div class="">
+                            <p class="blog-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloribus ea ab, officia dolore ipsam cumque nostrum placeat vero iure suscipit cupiditate tempora saepe eaque recusandae, illo, ipsa dicta esse.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col l-4 m-12">
+                            <div class="article-1 text-center">
+                                <a href="#" class="article-img">
+                                    <div class="">
+                                        <div class="article-read--more">READ MORE</div>
+                                        <img src="https://source.unsplash.com/random " style="width: 371px; height: 281px;" alt="">
+                                    </div>
+                                    <p class="article-heading">SUPPER BLOG ARTICLE</p>
+                                    <p class="article-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sed nemo accusamus labore doloribus unde sapiente, est dolorum animi tenetur tempora hic possimus nesciunt obcaecati nulla aliquam modi consequuntur officiis.
+                                    </p>
+                                    <p class="article-date">20 May 2020</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12">
+                            <div class="article-2 text-center">
+                                <a href="#" class="article-img">
+                                    <div class="">
+                                        <div class="article-read--more">READ MORE</div>
+                                        <img src="https://source.unsplash.com/random " style="width: 371px; height: 281px;" alt="">
+                                    </div>
+                                    <p class="article-heading">SUPPER BLOG ARTICLE</p>
+                                    <p class="article-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sed nemo accusamus labore doloribus unde sapiente, est dolorum animi tenetur tempora hic possimus nesciunt obcaecati nulla aliquam modi consequuntur officiis.
+                                    </p>
+                                    <p class="article-date">20 May 2020</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12">
+                            <div class="article-3 text-center">
+                                <a href=" " class="article-img">
+                                    <div class="">
+                                        <div class="article-read--more">READ MORE</div>
+                                        <img src="https://source.unsplash.com/random " style="width: 371px; height: 281px; " alt="">
+                                    </div>
+                                    <p class="article-heading">SUPPER BLOG ARTICLE</p>
+                                    <p class="article-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sed nemo accusamus labore doloribus unde sapiente, est dolorum animi tenetur tempora hic possimus nesciunt obcaecati nulla aliquam modi consequuntur officiis.
+                                    </p>
+                                    <p class="article-date">20 May 2020</p>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contact">
+            <div class="grid wide">
+                <div class="contact-main">
+                    <div class="contact-header text-center">
+                        <h2 class="contact-title">CONTACT US</h2>
+                        <div class="contact-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde obcaecati accusantium numquam amet? Unde officiis optio ipsum. Cumque magnam eveniet accusantium, ipsum voluptate reiciendis expedita totam ex, enim modi necessitatibus?</div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col l-6 m-12 c-12">
+                            <div class="contact-form">
+                                <p class="form-title">Send Us Message</p>
+                                <div class="form-name">
+                                    <input type="text" required placeholder="Name" class="form-control">
+                                </div>
+                                <div class="form-emai">
+                                    <input type="email" required placeholder="Email" class="form-control">
+                                </div>
+                                <div class="form-message">
+                                    <textarea placeholder="Message" class="form-control" cols="30 " rows="8"></textarea>
+                                </div>
+                                <div class="form-btn"><a href="#" class="btn">SEND MESSAGE</a></div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="contact-img">
+                                <img src="https://source.unsplash.com/random" style="width: 571px; height: 471px;" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-me">
+                        <div class="row">
+                            <div class="col l-4 m-4 c-12">
+                                <div class="contact-address">
+                                    <img class="contact-svg" src="./img/address.png" alt="">
+                                    <p style="margin-bottom: 10px; " class="contact-address__title">1211 Awesome Avenue,
+                                    </p>
+                                    <p>NY USD</p>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <div class="contact-phone">
+                                    <img class="contact-svg " src="./img/phone.png " alt="">
+                                    <a style="margin-bottom: 10px;" href="tel:\+00 123 - 456 -78" class="contact-phone-1">+00 123 - 456 -78</a>
+                                    <a href="tel:\+00 123 - 456 -78" class="contact-phone-1">+00 123 - 456 -78</a>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <div class="contact-mail">
+                                    <img class="contact-svg" src="./img/email.png" alt="">
+                                    <a href="mailto:mint@mintmail.com" class="contact-email__title">mint@mintmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-social">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-main">
+                    <div class="footer-left">
+                        <a href="#" class="footer-logo">
+                            <img src="./img/logo-footer.png " alt="">
+                        </a>
+                        <p class="footer-title"> © 2020 - Mint,All Reserved</p>
+                    </div>
+
+                    <div class="footer-right">
+                        <a href="#" class="right-text">
+                            <span>back to top</span>
+                            <i class="footer-icon fas fa-chevron-up"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
