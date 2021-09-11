@@ -317,15 +317,16 @@ input#nav-home:checked~.nav-list-mobile {
     margin-bottom: 20px;
 }
 
-.about-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+.about-list {}
 
 .about-img {
-    position: relative;
+    /* position: relative; */
     display: block;
+}
+
+.about--img {
+    position: relative;
+    margin: 0 auto;
 }
 
 
@@ -399,10 +400,7 @@ input#nav-home:checked~.nav-list-mobile {
     /* display: none; */
 }
 
-.blog-article {
-    display: flex;
-    justify-content: space-between;
-}
+.blog-article {}
 
 .article-1,
 .article-2,
