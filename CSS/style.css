@@ -327,6 +327,8 @@ input#nav-home:checked~.nav-list-mobile {
 .about--img {
     position: relative;
     margin: 0 auto;
+    max-width: 371px;
+    height: 420px;
 }
 
 
